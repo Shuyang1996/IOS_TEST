@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D29CF581DA1A1800029492B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29CF571DA1A1800029492B /* ContactViewController.swift */; };
 		3D6604621D98D89D003C0C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6604611D98D89D003C0C98 /* AppDelegate.swift */; };
 		3D6604641D98D89D003C0C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6604631D98D89D003C0C98 /* ViewController.swift */; };
 		3D6604671D98D89D003C0C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6604651D98D89D003C0C98 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D29CF571DA1A1800029492B /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		3D66045E1D98D89D003C0C98 /* Test_only.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_only.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6604611D98D89D003C0C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D6604631D98D89D003C0C98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				3D66046D1D98D89D003C0C98 /* LaunchScreen.storyboard */,
 				3D6604701D98D89D003C0C98 /* Info.plist */,
 				3D6604681D98D89D003C0C98 /* Test_only.xcdatamodeld */,
+				3D29CF571DA1A1800029492B /* ContactViewController.swift */,
 			);
 			path = Test_only;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6604641D98D89D003C0C98 /* ViewController.swift in Sources */,
+				3D29CF581DA1A1800029492B /* ContactViewController.swift in Sources */,
 				3D6604621D98D89D003C0C98 /* AppDelegate.swift in Sources */,
 				3D66046A1D98D89D003C0C98 /* Test_only.xcdatamodeld in Sources */,
 			);
@@ -488,6 +492,7 @@
 				3D66048B1D98D89D003C0C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D66048C1D98D89D003C0C98 /* Build configuration list for PBXNativeTarget "Test_onlyTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				3D66048E1D98D89D003C0C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D66048F1D98D89D003C0C98 /* Build configuration list for PBXNativeTarget "Test_onlyUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				3D6604911D98D89D003C0C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
